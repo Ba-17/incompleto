@@ -195,7 +195,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--rosa);
+    color: var(--preto);
     margin-bottom: 5px;
 }
 
