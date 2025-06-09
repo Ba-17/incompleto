@@ -13,7 +13,7 @@
     --azul-claro: #d9d7f0;
     --branco: #FFFFFF;
     --marron-claro: #FAF1E6;
-    --cinza: #787ae4; 
+    --azul-claro: #787ae4; 
 }
 
 body {
@@ -196,7 +196,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--cinza);
+    color: var(--azul-claro);
     margin-bottom: 5px;
 }
 
