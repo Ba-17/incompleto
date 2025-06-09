@@ -6,11 +6,11 @@
 
 :root {
     --preto: #000000;
-    --marinho: #493D9E;
+    --rosa: #bb68cf;
     --amarelo-claro: #FFF2AF;
-    --roxo-claro: #B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
+    --rosa-claro: #e2a5ff;
+    --lilas: #a385bc;
+    --azul-claro: #d9d7f0;
     --branco: #FFFFFF;
     --marron-claro: #FAF1E6;
 }
@@ -27,7 +27,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--rosa);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -46,7 +46,7 @@ header {
     background-color: var(--preto);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: var(--roxo-claro);
+    color: var(--rosa-claro);
 }
 
 #menu-toggle {
@@ -56,8 +56,8 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    background-color: var(--rosa-claro);
+    box-shadow: 0 2px 5px var(--rosa);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -117,7 +117,7 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--verde);
+    color: var(--lilas);
     margin-bottom: 60px;
     font-size: 4rem;
 }
@@ -149,7 +149,7 @@ h1 {
 .conteudo h2 {
     display: flex;
     justify-content: center;
-    color: var(--verde);
+    color: var(--lilas);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
@@ -175,7 +175,7 @@ h1 {
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color: var(--lilas);
 }
 
 .home {
@@ -185,7 +185,7 @@ h1 {
 
 .home a {
     font-size: 2rem;
-    color: var(--verde);
+    color: var(--lilas);
 }
 
 .conteudo ul li .block {
@@ -195,7 +195,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--rosa);
     margin-bottom: 5px;
 }
 
@@ -205,7 +205,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--rosa);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -215,6 +215,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--rosa);
     margin-bottom: 5px;
 }
