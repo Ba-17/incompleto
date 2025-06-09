@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --preto: #000000;
-    --marinho: #493D9E;
-    --amarelo-claro:#FFF2AF;
-    --roxo-claro:#B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
+    --rosa: #bb68cf;
+    --amarelo-claro: #FFF2AF;
+    --rosa-claro: #e2a5ff;
+    --lilas: #a385bc;
+    --azul-claro: #d9d7f0;
     --branco: #FFFFFF;
     --marron-claro: #FAF1E6;
 }
@@ -27,7 +27,7 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--rosa);
     padding: 1rem;
     justify-content: center;
 }
@@ -69,7 +69,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--verde);
+    color: var(--lilas);
     font-size: 5rem;
     text-decoration: none;
 }
