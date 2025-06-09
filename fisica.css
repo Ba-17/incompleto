@@ -6,7 +6,7 @@
 
 :root {
     --preto: #000000;
-    --marinho: #bb68cf;
+    --rosa: #bb68cf;
     --amarelo-claro: #FFF2AF;
     --roxo-claro: #B2A5FF;
     --verde: #99BC85;
@@ -27,7 +27,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--rosa);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -57,7 +57,7 @@ header {
     display: none;
     position: absolute;
     background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    box-shadow: 0 2px 5px var(--rosa);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -195,7 +195,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--rosa);
     margin-bottom: 5px;
 }
 
@@ -205,7 +205,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--rosa);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -215,6 +215,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--rosa);
     margin-bottom: 5px;
 }
