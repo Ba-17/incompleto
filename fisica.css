@@ -6,11 +6,11 @@
 
 :root {
     --preto: #000000;
-    --marinho: #d07bd3;
+    --marinho: #493D9E;
     --amarelo-claro: #FFF2AF;
     --roxo-claro: #B2A5FF;
-    --lilas: #9485bc;
-    --rosa-claro: #dcc0ee;
+    --verde: #99BC85;
+    --azul-claro: #E4EFE7;
     --branco: #FFFFFF;
     --marron-claro: #FAF1E6;
 }
@@ -18,7 +18,7 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--rosa-claro);
+    background-color: var(--azul-claro);
     color: var(--amarelo-claro);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
