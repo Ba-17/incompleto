@@ -124,12 +124,11 @@ h1 {
 }
 
 .biologia-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    flex-wrap: wrap;
+    grid-template-columns: 50% 50%;
 }
 
 .conteudo {
