@@ -44,9 +44,10 @@ main {
 
 .container {
     display: grid;
-    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    justify-items: center;
+    row-gap: 50px;
+    column-gap: 5px;
     grid-template-columns: 50% 50%;
 }
 
