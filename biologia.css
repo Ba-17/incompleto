@@ -136,9 +136,10 @@ h1 {
     background-color: var(--branco);
     border-radius: 10px;
     padding: 30px;
+    margin: 15px;
     width: 80%;
     height: 100%;
-    min-width: 90%;
+    min-width: 85%;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
