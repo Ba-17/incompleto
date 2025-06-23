@@ -123,7 +123,7 @@ h1 {
     font-size: 4rem;
 }
 
-.portugues-container {
+.portugues-container{
     display: grid;
     justify-content: space-between;
     align-items: center;
